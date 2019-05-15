@@ -69,16 +69,17 @@ body {
     height: 52vw;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     margin-bottom: 2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .typing_carousel {
+    position: absolute;
     color: white;
     font-size: 4vw;
     font-weight: bold;
+    top: 35%;
+    left: 18%;
 }
 
 .mig {
